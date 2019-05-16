@@ -1,0 +1,11 @@
+1. Why do programmers use pseudocode?
+to communicate to other human programmers looking at the code, or to themselves to help flesh out the logic
+2. If you run pseudocode on your computer what would happen?
+nothing, it won't run
+
+1. create a function that takes two numbers and prints out the greater numbers
+INPUT two numbers
+
+2.Create a function that prints out the numbers from 1 to 100
+3. create a function that searches for a specific entry in a phonebook
+4. using the pseudocode you wrote for the previous question, implement it in any computer language of your choice
