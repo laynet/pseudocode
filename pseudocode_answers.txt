@@ -4,20 +4,38 @@ to communicate to other human programmers looking at the code, or to themselves 
 nothing, it won't run
 
 1. create a function that takes two numbers and prints out the greater numbers
-input number a, number b
-if a > b then
-print a else
-print b
+INPUT first number
+INPUT second number
+IF the first number is greater than the second number
+  PRINT the first number
+ELSE
+  PRINT the second number
+END IF
 
 2.Create a function that prints out the numbers from 1 to 100
-input number
-while number <=100 and >0
-print number
+
+INPUT a number
+WHILE the number is greater than 0 and the number is less than or equal to 100 
+PRINT number
 
 3. create a function that searches for a specific entry in a phonebook
-input an object
-call search with string returning answer
-return answer
+INPUT an object
+FOR all the items in an array
+IF the object matches an item in the array THEN
+    RETURN the item
+ELSE
+    RETURN "entry not found"
+    
 4. using the pseudocode you wrote for the previous question, implement it in any computer language of your choice
-var phoneBook = phonebook object
-phoneBook.search("name you're looking for");
+var phonebook = ["Bob Smith", 4696320000, "14 Elm Street", "x"];
+
+function bookSearch(entry) {
+  for (var i = 0; i < phonebook.length; i++) {
+    if (phonebook[i] === entry) {
+      return entry;
+    }
+    return "entry not found";
+  }
+}
+
+console.log(bookSearch("Bob Smith"));
